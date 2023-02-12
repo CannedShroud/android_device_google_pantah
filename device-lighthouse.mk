@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022 Project Lighthouse
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lighthouse
 
 # EUICC
 PRODUCT_COPY_FILES += \

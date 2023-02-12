@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2019-2021 The LineageOS Project
+# Copyright (C) 2019-2021 Project Lighthouse
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -1102,7 +1102,7 @@ VENDOR_SKIP_FILES=(
     "lib/modules"
 
     # Exclude files that compile with BUILD_WITHOUT_VENDOR := false
-    # or manually added as build targets in device-lineage.mk
+    # or manually added as build targets in device-lighthouse.mk
 
     # Audio
     "lib/libaudioroutev2.so"
